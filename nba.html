@@ -1,235 +1,257 @@
 <!DOCTYPE html>
 <html lang="eS">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JANA SPORTS</title>
 
     <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/style.scss">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 </head>
+
 <body>
-
-    <section class="tank-bootstrap-header">
-        <nav class="navbar navbar-expand-lg navbar-light py-lg-3 py-2">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">JANA SPORTS</a>
-                <button class="navbar-toggler" type="button" 
-                data-toggle="collapse" data-target="#navbarSupportedContent">
-                    <span class="navbar-toggler-icon fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse"  id="navbarSupportedContent" >
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="nba.html">NBA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="futbol.html">FUTBOL</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-           </div> 
-        </nav>
-    </section>
-
-
-    <section class="tank-about-breadcrum">
-        <div class="breadcrum-bg">
-            <div class="container py-5">
-                <p><a href="index.html">Inicio</a>&nbsp; / &nbsp; NBA</p>
-            </div>
-        </div>
-    </section>
-
-
-    <div class="tank-content-photo-5 py-5" id="about">
-        <div class="content-main pt-lg-5 pt-md-3 pd-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 content-photo">
-                        <a href="#"><img src="./images/playoffnba.jpg" class="img-fluid"></a>
-                    </div>
-                    <div class="col-lg-7 content-left mt-lg-0 mt-5 pl-lg-5">
-                        <h3>¡Estamos En Finales de Conferencia!</h3>
-                        <p class="mb-0">Golden State Warriors y Dallas Mavericks en la Conferencia Oeste. Miami Heat y Boston Celtics en la Conferencia Este. Uno de esos cuatro equipos será el nuevo campeón de la NBA el próximo mes de junio, cuando se disputen las finales por el anillo. Antes, el último peldaño, el todo o nada para cuatro franquicias que comenzaron la temporada hace siete meses y, con circunstancias muy diferentes, se han plantado en las finales de conferencia de la NBA.
-                        </p>
-                            <a href="nba.html" class="btn-theme2 btn mt-lg-5">Nba</a>
+<!--Header-->
+    <header>
+        <section class="header-section">
+            <nav class="navbar navbar-expand-lg navbar-light py-lg-3 py-2">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">JANA SPORTS</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent">
+                        <span class="navbar-toggler-icon fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nba.html">NBA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="futbol.html">FUTBOL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./curiosidades.html">Curiosidades</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+            </nav>
+        </section>
+        <section class="section-inicio-nba">
+            <div class="inicio-nba">
+                <div class="container py-5">
+                    <p><a href="index.html">Inicio</a>&nbsp; / &nbsp; NBA</p>
+                </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </header>
 
-
-    <section id="services-1" class="py-5">
-        <div class="container py-lg-3">
-            <div class="heading text-center mx-auto">
-                <h3 class="head">¿Que Equipo es Favorito?</h3>
-                <p class="my-3 head">El historial entre Miami Heat y Boston Celtics en la temporada 21/22 de la NBA favorece a los últimos mencionados por la mínima. De tres encuentros disputados, los de verde superaron a su rival en dos ocasiones, mientras que cayeron en una.
-                    El primer encuentro fue el 4 de noviembre de 2021. Allí, los Celtics se impusieron fuera de casa por 95-78. La segunda victoria llegó el 31 de enero de 2022 en condición de local por 122 a 92. En cambio, el tercer y último enfrentamiento entre ambos en la temporada regular se dio el 30 de marzo de 2022, en el cual los Heat derrotaron a su competencia por 106 a 98 en su ida a Boston.
-                    Por su parte, Dallas Mavericks lleva la delantera ante Golden State Warriors. El conjunto dirigido por Jason Kidd salió victorioso en tres de las cuatro ocasiones en las que se vieron las caras.</p>
-            </div>
-            <div class="row mt-lg-5">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box-wrap">
-                        <div class="icon">
-                            <span class="fa fa-archive"></span>
-                            <h4><a href="nba.html">Golden State Warriors</a> </h4>
-                            <p>Tiene a sus hombres de siempre, pero en esta final de la Conferencia Oeste apareció otra pieza más para la colección: Andrew Wiggins. El canadiense, con la misión de sumarse a la dinastía y potenciar el dominio de la franquicia, demostró que la apuesta que hizo Kerr por él no fue en vano. En el tercer juego ante Mavericks dejó en claro por qué algunos, cuando llegó a la competencia con tan solo 18 años, lo señalaron como el nuevo LeBron James.</p>
+<!--Main-->
+    <main>
+        <div class="main-content-photo-5 py-5" id="about">
+            <div class="content-main pt-lg-5 pt-md-3 pd-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 content-photo">
+                            <a href="#"><img src="./images/playoffnba.jpg" class="img-fluid"></a>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box-wrap">
-                        <div class="icon">
-                            <span class="fa fa-archive"></span>
-                            <h4><a href="nba.html">Miami Heat</a> </h4>
-                            <p>Muchos pudieran pensar que Miami Heat solo debería estar preocupado por la gravedad de la lesión de Jimmy Butler, pero no solo deberían hacerlo por eso. Sino que hay un dato muy curioso que debería poner a temblar a Erik Spoelstra y los suyos, y es la estadística negativa que tiene el equipo de Florida con el récord de 2-1. Cuando, Miami Heat se pone 2-1 en una serie de Playoffs bajo esta fórmula, los del sur de Estados Unidos tiene un pésimo récord de 2 series ganadas por 4 perdidas.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box-wrap">
-                        <div class="icon">
-                            <span class="fa fa-archive"></span>
-                            <h4><a href="nba.html">Boston Celtics</a> </h4>
-                            <p>Los Celtics se quedaron a las puertas de firmar una remontada histórica ante Heat en el tercer partido de las Finales de la Conferencia Este. Sin embargo, no pudieron culminar en el tramo final un gran trabajo a partir del descanso.
-                                Los Heat fueron mucho más físicos que los Celtics. Miami llegó a tener una ventaja de hasta 26 puntos antes de que Boston comenzara su intento de remontada. El entrenador de los Celtics, dijo después del encuentro que su equipo «se hundió ante la presión». 
+                        <div class="col-lg-7 content-left mt-lg-0 mt-5 pl-lg-5">
+                            <h3>¡Estamos En Finales de Conferencia!</h3>
+                            <p class="mb-0">Golden State Warriors y Dallas Mavericks en la Conferencia Oeste. Miami Heat
+                                y Boston Celtics en la Conferencia Este. Uno de esos cuatro equipos será el nuevo
+                                campeón de la NBA el próximo mes de junio, cuando se disputen las finales por el anillo.
+                                Antes, el último peldaño, el todo o nada para cuatro franquicias que comenzaron la
+                                temporada hace siete meses y, con circunstancias muy diferentes, se han plantado en las
+                                finales de conferencia de la NBA.
                             </p>
+                            <a href="nba.html" class="btn-theme2 btn mt-lg-5">Nba</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-
-
-    <section class="tank-specifications-9">
-        <div class="main-t py-5" id="stats">
-            <div class="container py-md-3">
-                <div class="main-cont-wthree-fea row">
-                    <div class="grids-speci1 col-lg-3 col-6">
-                        <div class="spec-2 text-center">
-                            <h3 class="title-spe">3.40</h3>
-                            <p>Miami</p>
+        <section id="services-1" class="py-5">
+            <div class="container py-lg-3">
+                <div class="heading text-center mx-auto">
+                    <h3 class="head">¿Que Equipo es Favorito?</h3>
+                    <p class="my-3 head">El historial entre Miami Heat y Boston Celtics en la temporada 21/22 de la NBA
+                        favorece a los últimos mencionados por la mínima. De tres encuentros disputados, los de verde
+                        superaron a su rival en dos ocasiones, mientras que cayeron en una.
+                        El primer encuentro fue el 4 de noviembre de 2021. Allí, los Celtics se impusieron fuera de casa
+                        por 95-78. La segunda victoria llegó el 31 de enero de 2022 en condición de local por 122 a 92.
+                        En cambio, el tercer y último enfrentamiento entre ambos en la temporada regular se dio el 30 de
+                        marzo de 2022, en el cual los Heat derrotaron a su competencia por 106 a 98 en su ida a Boston.
+                        Por su parte, Dallas Mavericks lleva la delantera ante Golden State Warriors. El conjunto
+                        dirigido por Jason Kidd salió victorioso en tres de las cuatro ocasiones en las que se vieron
+                        las caras.</p>
+                </div>
+                <div class="row mt-lg-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="box-wrap">
+                            <div class="icon">
+                                <span class="fa fa-archive"></span>
+                                <h4><a href="nba.html">Golden State Warriors</a> </h4>
+                                <p>Tiene a sus hombres de siempre, pero en esta final de la Conferencia Oeste apareció
+                                    otra pieza más para la colección: Andrew Wiggins. El canadiense, con la misión de
+                                    sumarse a la dinastía y potenciar el dominio de la franquicia, demostró que la
+                                    apuesta que hizo Kerr por él no fue en vano. En el tercer juego ante Mavericks dejó
+                                    en claro por qué algunos, cuando llegó a la competencia con tan solo 18 años, lo
+                                    señalaron como el nuevo LeBron James.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="grids-speci1 midd-eff-spe col-lg-3 col-6">
-                        <div class="spec-2 text-center">
-                            <h3 class="title-spe">1.33</h3>
-                            <p>Celtics</p>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="box-wrap">
+                            <div class="icon">
+                                <span class="fa fa-archive"></span>
+                                <h4><a href="nba.html">Miami Heat</a> </h4>
+                                <p>Muchos pudieran pensar que Miami Heat solo debería estar preocupado por la gravedad
+                                    de la lesión de Jimmy Butler, pero no solo deberían hacerlo por eso. Sino que hay un
+                                    dato muy curioso que debería poner a temblar a Erik Spoelstra y los suyos, y es la
+                                    estadística negativa que tiene el equipo de Florida con el récord de 2-1. Cuando,
+                                    Miami Heat se pone 2-1 en una serie de Playoffs bajo esta fórmula, los del sur de
+                                    Estados Unidos tiene un pésimo récord de 2 series ganadas por 4 perdidas.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="grids-speci1 las-but col-lg-3 col-6 mt-lg-0 mt-4">
-                        <div class="spec-2 text-center">
-                            <h3 class="title-spe">1.95</h3>
-                            <p>Warriors</p>
-                        </div>
-                    </div>
-                    <div class="grids-speci1 las-t col-lg-3 col-6 mt-lg-0 mt-4">
-                        <div class="spec-2 text-center">
-                            <h3 class="title-spe">1.87</h3>
-                            <p>Dallas Mavericks</p>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="box-wrap">
+                            <div class="icon">
+                                <span class="fa fa-archive"></span>
+                                <h4><a href="nba.html">Boston Celtics</a> </h4>
+                                <p>Los Celtics se quedaron a las puertas de firmar una remontada histórica ante Heat en
+                                    el tercer partido de las Finales de la Conferencia Este. Sin embargo, no pudieron
+                                    culminar en el tramo final un gran trabajo a partir del descanso.
+                                    Los Heat fueron mucho más físicos que los Celtics. Miami llegó a tener una ventaja
+                                    de hasta 26 puntos antes de que Boston comenzara su intento de remontada. El
+                                    entrenador de los Celtics, dijo después del encuentro que su equipo «se hundió ante
+                                    la presión».
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-
-    <section class="tank-subscribe" id="subscribe">
-        <div class="main-host py-5 text-center">
-            <div class="container py-lg3">
-                <div class="grids-forms">
-
-                    <div class="main-midd">
-                        <h3 class="global-title mx-auto">Pon tu email para participar de las apuestas!</h3>
+        </section>
+        <section class="apuestas-nba">
+            <div class="main-t py-5" id="stats">
+                <div class="container py-md-3">
+                    <div class="main-cont-wthree-fea row">
+                        <div class="grids-speci1 col-lg-3 col-6">
+                            <div class="spec-2 text-center">
+                                <h3 class="title-spe">3.40</h3>
+                                <p>Miami</p>
+                            </div>
+                        </div>
+                        <div class="grids-speci1 midd-eff-spe col-lg-3 col-6">
+                            <div class="spec-2 text-center">
+                                <h3 class="title-spe">1.33</h3>
+                                <p>Celtics</p>
+                            </div>
+                        </div>
+                        <div class="grids-speci1 las-but col-lg-3 col-6 mt-lg-0 mt-4">
+                            <div class="spec-2 text-center">
+                                <h3 class="title-spe">1.95</h3>
+                                <p>Warriors</p>
+                            </div>
+                        </div>
+                        <div class="grids-speci1 las-t col-lg-3 col-6 mt-lg-0 mt-4">
+                            <div class="spec-2 text-center">
+                                <h3 class="title-spe">1.87</h3>
+                                <p>Dallas Mavericks</p>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="main-midd-2">
-                        <form action="#" class="rightside-form">
-                            <input type="email" placeholder="Enter email">
-                            <button type="submit" class="btn">Enviar</button>
-                        </form>
-                    </div>
-
                 </div>
             </div>
-        </div>
-    </section>
-
-
-
-
-    <section class="tank-footer-29-main" id="footer">
-        <div class="footer-29 text-center">
-            <div class="container">
-                <div class="main-social-footer-29">
-                    <a href="#" class="facebook"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="twitter"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="instagram"><span class="fa fa-instagram"></span></a>
-                    <a href="#" class="google-plus"><span class="fa fa-google-plus"></span></a>
-                    <a href="#" class="linkedin"><span class="fa fa-linkedin"></span></a>
-                </div>
-                <div class="bottom-copies text-center">
-                    <p class="copy-footer-29">2022 reservaciones <a href="#">tank</a></p>
+        </section>
+        <section class="apuestas-email-nba" id="subscribe">
+            <div class="main-host py-5 text-center">
+                <div class="container py-lg3">
+                    <div class="grids-forms">
+                        <div class="main-midd">
+                            <h3 class="global-title mx-auto">Pon tu email para participar de las apuestas!</h3>
+                        </div>
+                        <div class="main-midd-2">
+                            <form action="#" class="rightside-form">
+                                <input type="email" placeholder="Enter email">
+                                <button type="submit" class="btn">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <button onclick="topFunction()" id="movetop" title="Go to top">
-        <span class="fa fa-angle-up"></span>
-        </button>
+        </section>
+    </main>
+
+<!--Footer-->
+    <footer>
+        <section class="footer-redes-main" id="footer">
+            <div class="footer-29 text-center">
+                <div class="container">
+                    <div class="main-social-footer">
+                        <a href="#" class="facebook"><span class="fa fa-facebook"></span></a>
+                        <a href="#" class="twitter"><span class="fa fa-twitter"></span></a>
+                        <a href="#" class="instagram"><span class="fa fa-instagram"></span></a>
+                    </div>
+                    <div class="bottom-copies text-center">
+                        <p class="copy-footer-29">2022 reservaciones <a href="#"></a></p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="topFunction()" id="movetop" title="Go to top">
+                <span class="fa fa-angle-up"></span>
+            </button>
             <script>
-                window.onscroll = function() {
+                window.onscroll = function () {
                     scrollFunction()
                 };
 
                 function scrollFunction() {
-                    if(document.body.scrollTop > 20 || document.documentElement. scrollTop > 20) {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                         document.getElementById("movetop").style.display = "block";
-                    }else{
+                    } else {
                         document.getElementById("movetop").style.display = "none";
                     }
                 }
 
-                function topFunction () {
+                function topFunction() {
                     document.body.scrollTop = 0;
                     document.documentElement.scrollTop = 0;
                 }
             </script>
-    </section>
-
-    
+        </section>
+    </footer>
 
 
     <script>
-        $(function(){
-            $('.navbar-toggler').click(function(){
+        $(function () {
+            $('.navbar-toggler').click(function () {
                 $('body').toggleClass('noscroll');
             })
-
         });
     </script>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
 
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-
-
-    
 </body>
 </html>
